@@ -26,6 +26,7 @@ The outcome variable is:
 
             1, if household i switched to a new well
 Y_i=            
+
             0, if household i continued using its own well
 
 

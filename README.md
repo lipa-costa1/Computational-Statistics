@@ -21,10 +21,12 @@ educ: the education level of the head of household (years of education)
 
 You shall perform a logistic regression Bayesian analysis to understand the factors predictive of well switching among the users of unsafe wells.
 The outcome variable is:
-Y_i=\begin{cases}
-1, & \text{if household } i \text{ switched to a new well}\\
-0, & \text{if household } i \text{ continued using its own well}
-\end{cases}
-1.Start with a single predictor (dist) and consider the possibility to rescale the distance to 100-meter units.
 
-2.Fit a logistic regression model including all predictors.
+Y_i= 
+            1, if household i switched to a new well
+            0, if household i continued using its own well
+
+
+1. Start with a single predictor (dist) and consider the possibility to rescale the distance to 100-meter units.
+
+2. Fit a logistic regression model including all predictors.
